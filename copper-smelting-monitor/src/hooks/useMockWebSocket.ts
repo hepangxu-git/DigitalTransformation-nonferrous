@@ -1,6 +1,6 @@
 import type { FurnaceData, TemperaturePoint } from '../types';
 
-const WS_URL = 'ws://localhost:3000';
+const WS_URL = 'wss://digital-transformation-nonferrous.vercel.app';
 const HISTORY_SIZE = 72;
 
 const historyData: Map<number, TemperaturePoint[]> = new Map();

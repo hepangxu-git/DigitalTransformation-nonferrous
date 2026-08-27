@@ -87,7 +87,7 @@ export function Dashboard() {
     if (!selectedAlert) return;
 
     try {
-      const response = await fetch(`http://localhost:3000/api/alerts/${selectedAlert.id}/resolve`, {
+      const response = await fetch(`https://digital-transformation-nonferrous.vercel.app/api/alerts/${selectedAlert.id}/resolve`, {
         method: 'PUT',
       });
       const result = await response.json();
