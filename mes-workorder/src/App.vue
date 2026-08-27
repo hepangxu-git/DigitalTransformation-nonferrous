@@ -1,0 +1,26 @@
+<script setup lang="ts">
+import { RouterView } from 'vue-router'
+</script>
+
+<template>
+  <RouterView />
+</template>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif;
+  background: #f5f7fa;
+  min-height: 100vh;
+}
+
+#root {
+  max-width: 100%;
+  min-height: 100vh;
+}
+</style>

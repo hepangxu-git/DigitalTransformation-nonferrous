@@ -1,0 +1,24 @@
+:root {
+  font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #c0d0e0;
+  background-color: #0a1628;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  max-width: 1920px;
+  margin: 0 auto;
+  text-align: center;
+  min-height: 100vh;
+}
